@@ -1,0 +1,148 @@
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+body {
+    --font: 'IBM Plex Mono';
+    --code-font: 'IBM Plex Mono';
+    font-weight: 300;
+    letter-spacing: -0.05ch;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 2px;
+    --border-hover-transition: 0.2s ease;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: off;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off;
+    --dms-icon-svg-url: url('');
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-subtle);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url('');
+    --dms-background-image-size: cover;
+    --dms-background-color: #000000;
+
+    --background-image: off;
+    --background-image-url: url('');
+
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 12px;
+    --bg-floating: var(--bg-3);
+
+    --small-user-panel: on;
+
+    --unrounding: on;
+    --round-pfp: off;
+    --remove-pfp-decor: off;
+
+    --custom-spotify-bar: on;
+    --ascii-titles: on;
+    --ascii-loader: system24;
+
+    --panel-labels: on;
+    --label-color: var(--text-muted);
+    --label-font-weight: 500;
+}
+
+:root {
+    --colors: on;
+
+    --text-0: #000000;
+    --text-1: #ffffff;
+    --text-2: #ffffff;
+    --text-3: #f0f0f0;
+    --text-4: #cccccc;
+    --text-5: #999999;
+
+    --bg-1: #303030;
+    --bg-2: #222222;
+    --bg-3: #1b1b1b;
+    --bg-4: #000000;
+
+    --hover: transparent;
+    --active: transparent;
+    --active-2: transparent;
+    --message-hover: transparent;
+
+    --accent-1: #ffffff;
+    --accent-2: #ffffff;
+    --accent-3: #ffffff;
+    --accent-4: #e5e5e5;
+    --accent-5: #cccccc;
+    --accent-new: #ffffff;
+
+    --mention: linear-gradient(
+        to right,
+        rgb(255 255 255 / 12%) 40%,
+        transparent
+    );
+    --mention-hover: linear-gradient(
+        to right,
+        rgb(255 255 255 / 18%) 40%,
+        transparent
+    );
+    --reply: linear-gradient(
+        to right,
+        rgb(255 255 255 / 8%) 40%,
+        transparent
+    );
+    --reply-hover: linear-gradient(
+        to right,
+        rgb(255 255 255 / 14%) 40%,
+        transparent
+    );
+
+    --online: #ffffff;
+    --dnd: #ffffff;
+    --idle: #cccccc;
+    --streaming: #ffffff;
+    --offline: #777777;
+
+    --border-light: rgb(255 255 255 / 8%);
+    --border: rgb(255 255 255 / 16%);
+    --border-hover: var(--border);
+    --button-border: rgb(255 255 255 / 20%);
+
+    --red-1: #ffffff;
+    --red-2: #ffffff;
+    --red-3: #eeeeee;
+    --red-4: #dddddd;
+    --red-5: #bbbbbb;
+
+    --green-1: #ffffff;
+    --green-2: #ffffff;
+    --green-3: #eeeeee;
+    --green-4: #dddddd;
+    --green-5: #bbbbbb;
+
+    --blue-1: #ffffff;
+    --blue-2: #ffffff;
+    --blue-3: #eeeeee;
+    --blue-4: #dddddd;
+    --blue-5: #bbbbbb;
+
+    --yellow-1: #ffffff;
+    --yellow-2: #ffffff;
+    --yellow-3: #eeeeee;
+    --yellow-4: #dddddd;
+    --yellow-5: #bbbbbb;
+
+    --purple-1: #ffffff;
+    --purple-2: #ffffff;
+    --purple-3: #eeeeee;
+    --purple-4: #dddddd;
+    --purple-5: #bbbbbb;
+}

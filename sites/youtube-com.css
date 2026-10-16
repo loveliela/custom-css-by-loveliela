@@ -1,0 +1,57 @@
+ytd-watch-flexy #columns.ytd-watch-flexy {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 24px !important;
+}
+
+ytd-watch-flexy[flexy] #columns.ytd-watch-flexy {
+    flex-wrap: nowrap !important;
+}
+
+ytd-watch-flexy #primary.ytd-watch-flexy {
+    flex: 0 1 960px !important;
+    width: auto !important;
+    min-width: 640px !important;
+    max-width: 1100px !important;
+    order: 2 !important;
+}
+
+ytd-watch-flexy #secondary.ytd-watch-flexy {
+    flex: 0 0 400px !important;
+    width: 400px !important;
+    max-width: 400px !important;
+    order: 3 !important;
+}
+
+ytd-watch-flexy #columns.ytd-watch-flexy::before {
+    content: "";
+    display: block;
+    flex: 0 0 400px !important;
+    order: 1 !important;
+}
+
+ytd-watch-flexy #player-container-inner {
+    max-width: 100% !important;
+}
+
+ytd-watch-metadata #description,
+ytd-watch-metadata #description-inner,
+ytd-watch-metadata #description-inline-expander,
+ytd-watch-metadata #description-inline-expander yt-formatted-string,
+ytd-watch-metadata #description-inline-expander yt-attributed-string {
+    font-size: 20px !important;
+    line-height: 1.55 !important;
+}
+
+ytd-comment-view-model #content-text,
+ytd-comment-view-model #content-text yt-attributed-string,
+ytd-comment-view-model #content-text .ytAttributedStringHost {
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}
+
+ytd-comment-view-model ytd-comment-view-model #content-text,
+ytd-comment-view-model ytd-comment-view-model #content-text .ytAttributedStringHost {
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+}

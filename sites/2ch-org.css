@@ -1,0 +1,250 @@
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+.cntnt {
+    display: block !important;
+    grid-template-columns: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+}
+.cntnt__aside,
+.sidebar,
+#fmenu {
+    display: none !important;
+}
+.cntnt__main {
+    display: block !important;
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    box-sizing: border-box !important;
+    width: min(1100px, calc(100% - 40px)) !important;
+    max-width: 1100px !important;
+    min-width: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    background: #000 !important;
+}
+#js-posts {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.cntnt__header,
+.header {
+    box-sizing: border-box !important;
+    width: min(1100px, calc(100% - 40px)) !important;
+    max-width: 1100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+.header__opts {
+    box-sizing: border-box !important;
+}
+.tn {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    margin: 10px 0 !important;
+    padding: 0 !important;
+    background: #000 !important;
+}
+.thread {
+    display: block !important;
+    position: relative !important;
+    clear: both !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 30px 0 !important;
+    padding: 20px !important;
+    background: #111 !important;
+    border: 1px solid #333 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+.post {
+    display: flow-root !important;
+    clear: both !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 14px 0 !important;
+    padding: 16px !important;
+    background: #111 !important;
+    color: #fff !important;
+    border: 1px solid #333 !important;
+    border-radius: 14px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
+    font-size: 20px !important;
+}
+.post_type_reply {
+    margin-left: 0 !important;
+}
+.post_type_oppost {
+    border-left: 5px solid #5aa8ff !important;
+}
+.post__message {
+    color: #fff !important;
+    font-size: 24px !important;
+    line-height: 1.55 !important;
+    overflow-wrap: anywhere !important;
+}
+.post__message *,
+.post__message p,
+.post__message span,
+.post__message div,
+.post__message h1,
+.post__message h2,
+.post__message h3,
+.post__message h4,
+.post__message li,
+.post__message td,
+.post__message th,
+.post__message blockquote {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.post__details {
+    color: #bbb !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    margin-bottom: 12px !important;
+}
+.post__details span {
+    color: #bbb !important;
+    font-size: 16px !important;
+}
+.post__title {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+.post__anon,
+.post__time {
+    color: #bbb !important;
+}
+.post a,
+.post__message a,
+.post__details a {
+    color: #6db4ff !important;
+}
+.post a:visited,
+.post__message a:visited {
+    color: #b08cff !important;
+}
+.post .post-reply-link,
+.post .post__reflink,
+.post a.hashlink {
+    color: #5faaff !important;
+}
+.post__images {
+    margin-bottom: 12px !important;
+}
+.post__file-preview {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 10px !important;
+}
+.post__file-attr,
+.post__filezise {
+    color: #aaa !important;
+}
+.thread__missed {
+    box-sizing: border-box !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    margin: 14px 0 !important;
+    padding: 10px 14px !important;
+    background: #181818 !important;
+    color: #ccc !important;
+    border: 1px solid #333 !important;
+    border-radius: 10px !important;
+}
+input,
+textarea,
+select,
+button {
+    box-sizing: border-box !important;
+    background: #111 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+    border-radius: 8px !important;
+}
+@media (max-width: 700px) {
+    .cntnt__main,
+    .cntnt__header,
+    .header {
+        width: calc(100% - 16px) !important;
+    }
+    .thread {
+        margin: 16px 0 !important;
+        padding: 10px !important;
+        border-radius: 12px !important;
+    }
+    .post {
+        padding: 12px !important;
+        border-radius: 10px !important;
+    }
+    .post,
+    .post__message,
+    .post__message * {
+        font-size: 20px !important;
+    }
+}
+.post__message a[href*="#"],
+.post__message a[href*="/res/"],
+.post__message .post-reply-link,
+.post__message .post__reflink,
+.post__message .js-post-reply-btn {
+    color: #55d66b !important;
+}
+.post__message blockquote,
+.post__message .unkfunc,
+.post__message .quote {
+    color: #55d66b !important;
+}
+.post__message a[href*="#"]:visited,
+.post__message a[href*="/res/"]:visited,
+.post__message .post-reply-link:visited,
+.post__message .post__reflink:visited {
+    color: #55d66b !important;
+}
+.post__message,
+.post__message *,
+.post__message p,
+.post__message span,
+.post__message div,
+.post__message li,
+.post__message td,
+.post__message th,
+.post__message pre,
+.post__message code,
+.post__message blockquote,
+.post__message font,
+.post__message small {
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+}
+#original-post,
+[id^="original-post"],
+[id^="shrinked-post"],
+.expand-large-comment {
+    font-size: 24px !important;
+}
+[id^="original-post"] *,
+[id^="shrinked-post"] * {
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+}
