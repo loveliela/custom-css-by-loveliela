@@ -10,6 +10,7 @@ I use [Stylus](https://github.com/openstyles/stylus) to apply custom CSS styles 
 
 - [YouTube](https://www.youtube.com/) — [`sites/youtube-com.css`](./sites/youtube-com.css)
 - [2ch](https://2ch.org/) — [`sites/2ch-org.css`](./sites/2ch-org.css)
+- [4chan](https://4chan.org/) — [`sites/4chan-org.css`](./sites/4chan-org.css)
 
 ## Applications
 
