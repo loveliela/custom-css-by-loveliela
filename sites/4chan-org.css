@@ -1,0 +1,512 @@
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background: #000 !important;
+    color: #fff !important;
+
+    min-height: 100% !important;
+}
+
+#main {
+    width: 1100px !important;
+    max-width: calc(100% - 40px) !important;
+
+    margin: 0 auto !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+}
+
+#header-bar,
+.boardBanner,
+.navLinks {
+    width: 1100px !important;
+    max-width: calc(100% - 40px) !important;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    box-sizing: border-box !important;
+
+    background: #000 !important;
+    color: #fff !important;
+
+    border: 0 !important;
+}
+
+#header-bar a,
+.boardBanner a,
+.navLinks a {
+    color: #6db4ff !important;
+}
+
+.boardBanner {
+    margin-bottom: 15px !important;
+}
+
+.boardBanner img {
+    max-width: 100% !important;
+    height: auto !important;
+
+    border-radius: 10px !important;
+}
+
+.navLinks {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+
+    padding: 0 !important;
+
+    color: #bbb !important;
+}
+
+.thread {
+    display: block !important;
+    position: relative !important;
+
+    width: 100% !important;
+    max-width: 1100px !important;
+
+    margin: 30px auto !important;
+    padding: 20px !important;
+
+    box-sizing: border-box !important;
+
+    background: #111 !important;
+
+    border: 1px solid #333 !important;
+    border-radius: 16px !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+.thread hr,
+.thread + hr {
+    display: none !important;
+}
+
+.postContainer {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 14px 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    clear: both !important;
+}
+
+.post {
+    display: flow-root !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 0 !important;
+    padding: 16px !important;
+
+    box-sizing: border-box !important;
+
+    background: #111 !important;
+    color: #fff !important;
+
+    border: 1px solid #333 !important;
+    border-radius: 14px !important;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.35) !important;
+
+    font-size: 20px !important;
+
+    text-shadow: none !important;
+}
+
+.post.op {
+    border-left: 5px solid #5aa8ff !important;
+}
+
+.post.reply {
+    background: #111 !important;
+}
+
+.replyContainer {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.postInfo,
+.postInfo.desktop,
+.postInfoM {
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    background: transparent !important;
+
+    color: #bbb !important;
+
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+
+    border: 0 !important;
+}
+
+.nameBlock,
+.nameBlock .name,
+.postertrip {
+    color: #bbb !important;
+    font-size: 16px !important;
+}
+
+.dateTime {
+    color: #999 !important;
+    font-size: 16px !important;
+}
+
+.postNum,
+.postNum a {
+    color: #6db4ff !important;
+    font-size: 16px !important;
+}
+
+.subject {
+    color: #fff !important;
+
+    font-size: 20px !important;
+    font-weight: normal !important;
+}
+
+.postMessage,
+blockquote.postMessage {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    margin: 10px 0 0 0 !important;
+    padding: 0 !important;
+
+    box-sizing: border-box !important;
+
+    background: transparent !important;
+
+    color: #fff !important;
+
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+
+    overflow-wrap: anywhere !important;
+
+    border: 0 !important;
+}
+
+.postMessage *,
+.postMessage p,
+.postMessage span,
+.postMessage div,
+.postMessage li,
+.postMessage td,
+.postMessage th,
+.postMessage pre,
+.postMessage code {
+    color: #fff !important;
+
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+
+    overflow-wrap: anywhere !important;
+}
+
+.post a,
+.postMessage a,
+.postInfo a {
+    color: #6db4ff !important;
+
+    text-decoration: none !important;
+}
+
+.post a:visited,
+.postMessage a:visited {
+    color: #b08cff !important;
+}
+
+.post a:hover,
+.postMessage a:hover,
+.postInfo a:hover {
+    color: #8cc5ff !important;
+}
+
+.postMessage .quotelink,
+.postMessage a.quotelink,
+.postMessage a[href^="#p"] {
+    color: #55d66b !important;
+}
+
+.postMessage .quotelink:visited,
+.postMessage a.quotelink:visited,
+.postMessage a[href^="#p"]:visited {
+    color: #55d66b !important;
+}
+
+.postMessage .quote,
+.postMessage .unkfunc {
+    color: #55d66b !important;
+}
+
+.postMessage span.quote {
+    color: #55d66b !important;
+}
+
+.file {
+    display: block !important;
+
+    max-width: 100% !important;
+
+    margin: 0 0 12px 0 !important;
+}
+
+.fileThumb {
+    display: inline-block !important;
+
+    max-width: 100% !important;
+
+    overflow: hidden !important;
+
+    border-radius: 10px !important;
+}
+
+.fileThumb img {
+    display: block !important;
+
+    max-width: 100% !important;
+    height: auto !important;
+
+    border-radius: 10px !important;
+}
+
+.fileText {
+    margin-bottom: 8px !important;
+
+    color: #aaa !important;
+
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+}
+
+.fileText a {
+    color: #6db4ff !important;
+}
+
+.sideArrows {
+    display: none !important;
+}
+
+.post,
+.reply,
+.op,
+.thread {
+    background-image: none !important;
+}
+
+.thread-stats,
+#thread-stats,
+.watch-thread-link,
+.expand-all-shortcut,
+.contract-all-shortcut {
+    color: #aaa !important;
+}
+
+#qr,
+#qr-dialog,
+.dialog,
+#postForm {
+    box-sizing: border-box !important;
+
+    background: #111 !important;
+    color: #fff !important;
+
+    border: 1px solid #333 !important;
+    border-radius: 14px !important;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.5) !important;
+}
+
+input,
+textarea,
+select,
+button,
+.field,
+#qr input,
+#qr textarea,
+#qr select {
+    box-sizing: border-box !important;
+
+    background: #111 !important;
+    color: #fff !important;
+
+    border: 1px solid #444 !important;
+    border-radius: 8px !important;
+}
+
+textarea,
+#qr textarea {
+    padding: 10px !important;
+
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+
+    resize: vertical !important;
+}
+
+button,
+.button,
+#qr button {
+    padding: 8px 14px !important;
+
+    background: #181818 !important;
+    color: #fff !important;
+
+    border: 1px solid #444 !important;
+    border-radius: 8px !important;
+}
+
+.stub,
+.hide_thread_button,
+.hidden_thread {
+    width: fit-content !important;
+    max-width: 100% !important;
+
+    margin: 14px 0 !important;
+    padding: 10px 14px !important;
+
+    box-sizing: border-box !important;
+
+    background: #181818 !important;
+    color: #ccc !important;
+
+    border: 1px solid #333 !important;
+    border-radius: 10px !important;
+}
+
+.stub a,
+.hide_thread_button a {
+    color: #6db4ff !important;
+}
+
+.postMessage s,
+.postMessage s a {
+    color: #111 !important;
+    background: #111 !important;
+}
+
+.postMessage s:hover,
+.postMessage s:hover a {
+    color: #fff !important;
+}
+
+input[type="checkbox"] {
+    accent-color: #5aa8ff !important;
+}
+
+* {
+    scrollbar-color: #444 #000;
+}
+
+@media (max-width: 700px) {
+
+    #main,
+    #header-bar,
+    .boardBanner,
+    .navLinks {
+        width: calc(100% - 16px) !important;
+        max-width: none !important;
+    }
+
+    .thread {
+        width: 100% !important;
+        max-width: none !important;
+
+        margin: 16px 0 !important;
+        padding: 10px !important;
+
+        border-radius: 12px !important;
+    }
+
+    .postContainer {
+        margin: 10px 0 !important;
+    }
+
+    .post {
+        padding: 12px !important;
+
+        border-radius: 10px !important;
+    }
+
+    .postMessage,
+    blockquote.postMessage,
+    .postMessage *,
+    .postMessage p,
+    .postMessage span,
+    .postMessage div,
+    .postMessage li {
+        font-size: 20px !important;
+        line-height: 1.6 !important;
+    }
+
+    .postInfo,
+    .postInfoM,
+    .nameBlock,
+    .dateTime,
+    .postNum {
+        font-size: 14px !important;
+    }
+
+    .subject {
+        font-size: 18px !important;
+    }
+
+    .fileThumb,
+    .fileThumb img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #main,
+    #header-bar,
+    .boardBanner,
+    .navLinks {
+        width: calc(100% - 8px) !important;
+    }
+
+    .thread {
+        margin: 12px 0 !important;
+        padding: 6px !important;
+
+        border-radius: 10px !important;
+    }
+
+    .post {
+        padding: 10px !important;
+
+        border-radius: 8px !important;
+    }
+
+    .postMessage,
+    blockquote.postMessage,
+    .postMessage *,
+    .postMessage p {
+        font-size: 19px !important;
+        line-height: 1.55 !important;
+    }
+}
