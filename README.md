@@ -25,6 +25,7 @@ Third-party code, themes, and resources remain subject to their respective licen
 
 ## Credits
 
-- [system24](https://github.com/refact0r/system24) by [refact0r](https://github.com/refact0r) — the original Discord theme used as the basis for my custom configuration. Licensed under the [MIT License](LICENSE-system24). My configuration imports the original theme and modifies its CSS variables.
+- [system24](https://github.com/refact0r/system24) by [refact0r](https://github.com/refact0r) — the original Discord theme used as the basis for my custom configuration. Licensed under the MIT License.
+- [IBM Plex Mono](https://github.com/IBM/plex) by IBM — the monospace font used in my custom styles. Licensed under the SIL Open Font License 1.1.
 
 The original system24 theme remains the work of its respective author and contributors.
